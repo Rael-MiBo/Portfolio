@@ -1,0 +1,81 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+/* main {
+  max-width: 600px;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.657);
+} */
+
+#container img {
+  max-width: 10%;
+}
+
+#container {
+  display: flex;
+  margin-top: 20px;
+  height: 65vh;
+}
+#about-container {
+  display: flex;
+  margin-top: 20px;
+  height: 40vh;
+}
+#school {
+  display: flex;
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.instagram {
+  position: absolute;
+  left: 45%;
+}
+.github {
+  position: absolute;
+  left: 50%;
+}
+.linkedin {
+  position: absolute;
+  left: 55%;
+}
+.p#aboutMe {
+  color: aqua;
+}
+.aboutMe {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30vw;
+  left: 20vw;
+}
+.aboutMeTwo {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30vw;
+  left: 50vw;
+}
+
+h1#top {
+  color: white;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 150px 1px 1px 1px;
+  margin: 25vh 0px 0px 0px;
+}
+
+p#sub {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 0px;
+}
