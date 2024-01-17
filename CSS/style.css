@@ -6,14 +6,6 @@ body {
   background-color: black;
 }
 
-/* main {
-  max-width: 600px;
-    margin: auto;
-    padding: 10px 15px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.657);
-} */
-
 #container img {
   max-width: 10%;
 }
