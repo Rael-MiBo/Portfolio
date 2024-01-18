@@ -71,3 +71,35 @@ p#sub {
   text-align: center;
   margin: 0px;
 }
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+#container img {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  35% {
+    transform: translatey(5px);
+  }
+  50% {
+    transform: translatey(-5px);
+  }
+  75% {
+    transform: translatey(5px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
