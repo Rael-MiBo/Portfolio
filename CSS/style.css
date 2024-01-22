@@ -7,13 +7,18 @@ body {
 }
 
 #container img {
-  max-width: 10%;
+  max-width: 50%;
+  /* position: 90px; */
+  /* justify-content: space-between; */
 }
 
 #container {
+  justify-content: space-between;
   display: flex;
+  flex-direction: row;
   margin-top: 20px;
   height: 65vh;
+  width: auto;
 }
 #about-container {
   display: flex;
@@ -27,16 +32,19 @@ body {
 }
 
 .instagram {
-  position: absolute;
-  left: 45%;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
 }
 .github {
-  position: absolute;
-  left: 50%;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
 }
 .linkedin {
-  position: absolute;
-  left: 55%;
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
 }
 .p#aboutMe {
   color: aqua;
