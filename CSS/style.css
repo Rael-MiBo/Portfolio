@@ -127,7 +127,7 @@ p#sub {
 
 /* Barra de rolagem */
 
-.aboutImg, .aboutLeftImg {
+.aboutImg {
   position: absolute;
   bottom: 50px;
   right: 120%;
@@ -161,3 +161,8 @@ p#sub {
   transition-delay: 0s;
 }
 
+.aboutImg img {
+  box-shadow: 4px 3px 5px gray;
+  border-radius: 15px;
+  
+}
