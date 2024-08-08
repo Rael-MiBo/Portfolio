@@ -1,5 +1,6 @@
 * {
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -86,12 +87,12 @@ p#sub {
   flex-direction: column;
   justify-content: center;
   transform: translatey(0px);
-  animation: float 5s ease-in-out infinite;
+  animation: float 5s ease-in-out;
 }
 
 #container img {
   transform: translatey(0px);
-  animation: float 5s ease-out;
+  animation: float 5s ease-in-out;
   align-items: center;
   display: flex;
   flex-direction: column;
