@@ -126,3 +126,38 @@ p#sub {
 }
 
 /* Barra de rolagem */
+
+.aboutImg, .aboutLeftImg {
+  position: absolute;
+  bottom: 50px;
+  right: 120%;
+  opacity: 0;
+  transform: translateX(-50px);
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out, visibility 0s 1s;
+}
+
+.aboutText:hover + .aboutImg {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
+.aboutLeftImg {
+  position: absolute;
+  bottom: 50px;
+  left: 120%;
+  opacity: 0;
+  transform: translateX(50px);
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out, visibility 0s 1s;
+}
+
+.aboutLeft:hover + .aboutLeftImg {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0s;
+}
+
