@@ -90,24 +90,6 @@ p#sub {
   animation: float 5s ease infinite;
 }
 
-.header img {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transform: translatey(0px);
-  animation: float 5s ease infinite;
-}
-
-/* #container img {
-  transform: translatey(0px);
-  animation: float 5s ease infinite;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 @keyframes float {
   0% {
     transform: translatey(0px);
