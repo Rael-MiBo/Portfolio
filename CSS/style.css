@@ -87,12 +87,12 @@ p#sub {
   flex-direction: column;
   justify-content: center;
   transform: translatey(0px);
-  animation: float 5s ease-in-out;
+  animation: float 5s ease infinite;
 }
 
 #container img {
   transform: translatey(0px);
-  animation: float 5s ease-in-out;
+  animation: float 5s ease infinite;
   align-items: center;
   display: flex;
   flex-direction: column;
