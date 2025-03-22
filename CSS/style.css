@@ -18,13 +18,13 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-  height: 65vh;
+  height: 45vh;
   width: auto;
 }
 #about-container {
   display: flex;
   margin-top: 20px;
-  height: 40vh;
+  height: 30vh;
 }
 #school {
   display: flex;
@@ -46,6 +46,20 @@ body {
   width: 90px;
   height: 90px;
   margin-right: 10px;
+}
+.scrool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrool img {
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+  animation: float 2s ease infinite;
+}
+#seta {
+  transition: opacity 0.5s ease; /* Transição suave de opacidade */
 }
 .p#aboutMe {
   color: aqua;
@@ -81,14 +95,16 @@ p#sub {
   margin: 0px;
 }
 
+
 .header {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   transform: translatey(0px);
-  animation: float 5s ease infinite;
+  /* animation: float 5s ease infinite; */
 }
+
 
 @keyframes float {
   0% {
@@ -130,7 +146,7 @@ p#sub {
 .aboutImg {
   position: absolute;
   bottom: 50px;
-  right: 120%;
+  right: 110%;
   opacity: 0;
   transform: translateX(-50px);
   visibility: hidden;
