@@ -34,7 +34,7 @@ footer {
 #about-container {
   display: flex;
   margin-top: 20px;
-  height: 30vh;
+  height: 50vh;
 }
 #school {
   display: flex;
@@ -166,7 +166,8 @@ p#sub {
 .aboutImg {
   position: absolute;
   bottom: 50px;
-  right: 110%;
+  right: 90%;
+  margin: 20%;
   opacity: 0;
   transform: translateX(-50px);
   visibility: hidden;
@@ -182,8 +183,8 @@ p#sub {
 
 .aboutLeftImg {
   position: absolute;
-  bottom: 50px;
-  left: 120%;
+  top: 15px;
+  left: 110%;
   opacity: 0;
   transform: translateX(50px);
   visibility: hidden;
