@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Projeto - Nome do Projeto</title>
+    <link rel="stylesheet" href="/CSS/project-detail.css" />
+  </head>
+  <body>
+    <div class="project-container">
+      <header class="project-header">
+        <h1>Andromeda Bot</h1>
+        <p class="project-subtitle">
+          Bot de automação para Discord focado em moderação e diversão.
+        </p>
+        <a href="projects.html" class="back-link">← Voltar para todos os projetos</a>
+      </header>
+
+      <main>
+        <article class="project-article">
+          <section>
+            <h2>Sobre o Projeto</h2>
+            <p>
+              O Andromeda Bot é um bot desenvolvido para a plataforma Discord, projetado para facilitar a moderação de servidores e proporcionar funcionalidades divertidas para os usuários. Com comandos personalizáveis, o bot permite que administradores gerenciem membros, mensagens e canais de forma eficiente.
+            </p>
+            <p>
+              Além das funcionalidades de moderação, o Andromeda Bot inclui integração com a API do Banco Central com a cotação diaria. O bot é construído utilizando a biblioteca Discord.js, garantindo performance e escalabilidade.
+            </p>
+          </section>
+
+          <section>
+            <h2>Tecnologias Utilizadas</h2>
+            <div class="project-tech">
+              <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>Node.js</li>
+                <li>Discord.js</li>
+                <li>APIs REST</li>
+                <li>SquareCloud (Hospedagem)</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2>Desafios e Aprendizados</h2>
+            <p>
+              Durante o desenvolvimento do Andromeda Bot, enfrentei desafios relacionados à integração com a API do Discord e à implementação de comandos personalizados. Foi necessário estudar a documentação da biblioteca Discord.js para entender como manipular eventos e interações de forma eficaz.
+            </p>
+            <p>
+              Além disso, aprendi sobre boas práticas de desenvolvimento de bots, como gerenciamento de permissões e tratamento de erros. A experiência me proporcionou um entendimento mais profundo sobre desenvolvimento backend e integração com APIs externas.
+            </p>
+          </section>
+
+          <section>
+            <h2>Galeria de Imagens</h2>
+            <div class="project-gallery">
+              <img
+              src="/IMG/Andromeda1.png"
+              alt="cotação diaria"
+              class="gallery-item"
+              onclick="openModal(this.src)"
+            />
+            <img
+              src="/IMG/Andromeda2.png"
+              alt="Screenshot do dashboard"
+              class="gallery-item"
+              onclick="openModal(this.src)"
+            />
+            <img
+              src="/IMG/Andromeda3.png"
+              alt="Screenshot do perfil"
+              class="gallery-item"
+              onclick="openModal(this.src)"
+            />
+            </div>
+          </section>
+
+          <section>
+            <div class="project-features">
+              <h2>Oque o bot oferece</h2>
+              <ul>
+                <li>Comandos de moderação (banir, expulsar, mutar)</li>
+                <li>Comandos de diversão (jogos, memes, citações)</li>
+                <li>Integração com API do Banco Central para cotação diaria</li>
+                <li>Faz a cambiação através da API</li>
+                <li>Configuração personalizada por servidor</li>
+                <li>Logs de atividades dos membros</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="project-links-section">
+            <h2>Links</h2>
+            <div class="project-links">
+              <a href="https://github.com/Rael-MiBo/Bot-Andromeda" target="_blank">Ver Código no GitHub</a>
+            </div>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Rafael. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+      function openModal(src) {
+        const modal = document.createElement("div");
+        modal.style.position = "fixed";
+        modal.style.top = "0";
+        modal.style.left = "0";
+        modal.style.width = "100%";
+        modal.style.height = "100%";
+        modal.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+        modal.style.display = "flex";
+        modal.style.justifyContent = "center";
+        modal.style.alignItems = "center";
+        modal.style.cursor = "pointer";
+
+        const img = document.createElement("img");
+        img.src = src;
+        img.style.maxWidth = "90%";
+        img.style.maxHeight = "90%";
+        img.style.boxShadow = "0 0 10px #fff";
+
+        modal.appendChild(img);
+        document.body.appendChild(modal);
+
+        modal.onclick = function () {
+          document.body.removeChild(modal);
+        };
+      }
+    </script>
+  </body>
+</html>
